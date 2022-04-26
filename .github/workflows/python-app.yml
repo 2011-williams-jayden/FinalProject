@@ -28,4 +28,4 @@ jobs:
         python -m pip install --upgrade pip
     - name: Test with python
       run: |
-        python3 -m unittest Calculator.py CalcTest.py CalcTestAdd.py CalcTestSub.py CalcTestMulti.py CalcTestDiv.py CalcIntegrationTest.py
+        python3 -m unittest CalcTest.py CalcIntegrationTest.py
