@@ -3,6 +3,7 @@
 #Author: Jayden Williams
 
 import unittest
+import Calculator
 
 class Calculator:
     def __init__(self):
@@ -16,7 +17,7 @@ class TestCalcMulit(unittest.Calculator):
 
     def setUp(self):
         '''Set up an instance of Calculator pior to every test execution'''
-        self.calc = Calculator()
+        self.calc = Calculator(input('3'))
 
     def test_mult(self):
         '''Test case function for division'''

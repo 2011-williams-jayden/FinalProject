@@ -3,6 +3,7 @@
 #Author: Jayden Williams
 
 import unittest
+import Calculator
 
 class Calculator:
     def __init__(self):

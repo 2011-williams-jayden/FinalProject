@@ -3,6 +3,7 @@
 #Author: Jayden Williams
 
 import unittest
+import Calculator
 
 class Calculator:
     def __init__(self):
@@ -16,7 +17,7 @@ class TestCalcSub(unittest.Calculator):
 
     def setUp(self):
         '''Set up an instance of Calculator pior to every test execution'''
-        self.calc = Calculator()
+        self.calc = Calculator(input('4'))
 
     def test_sub(self):
         '''Test case function for addition'''
@@ -40,4 +41,4 @@ class TestCalcSub(unittest.Calculator):
         print("\ntearDown executing after the test case. Result:")
 
 if __name__ == '__main__':
-    unittest.run()
+    unittest.main()
