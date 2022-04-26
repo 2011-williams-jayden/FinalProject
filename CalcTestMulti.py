@@ -17,7 +17,7 @@ class TestCalcMulit(unittest.Calculator):
 
     def setUp(self):
         '''Set up an instance of Calculator pior to every test execution'''
-        self.calc = Calculator(input('3'))
+        self.calc = Calculator(input(3))
 
     def test_mult(self):
         '''Test case function for division'''

@@ -17,7 +17,7 @@ class TestCalcSub(unittest.Calculator):
 
     def setUp(self):
         '''Set up an instance of Calculator pior to every test execution'''
-        self.calc = Calculator(input('4'))
+        self.calc = Calculator(input(4))
 
     def test_sub(self):
         '''Test case function for addition'''
