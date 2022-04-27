@@ -22,7 +22,15 @@ class TestCalc(unittest.Calculator):
     def test_user_input(self):
         self.assertEqual(self.calc.input('3')('3'))
         self.assertEqual(self.calc.input('4')('4'))
-
+        
+    def test_input_divfunction(self):
+        self.assertEqual(self.calc.input('4')('4'))
+        self.assertEqual(self.calc.div(20, 5), 4)
+        
+    def test_input_addfunction(self):
+        self.assertEqual(self.calc.input('1')('1'))
+        self.assertEqual(self.calc.add(3, 5), 8)
+        
     def tearDown(self):
         """ Executed after every test case """
         print("\ntearDown executing after the test case. Result:")
