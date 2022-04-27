@@ -1,3 +1,5 @@
 # Final Project - Calculator
 # Jayden Wiliams
-4/26/22
+#4/26/22
+For the final project, I created a Multi-Function calculator, coded in Python, that can do all the basic math functions (Addition, Subtraction, Multiplication, and Division) and i added a menu for input from the user and use the input to integrate it into the calculator. For Testing, i tested for things like the operations available and tested those operations with certain cases i also tested for other inputs like decimal (Floating Point) numbers, letters (to make sure they don't behave like variables), overflow (just in case the calculator cant hold a certain number of 0’s), and no input as well. I also wanted to address and test the edge cases (Dividing by 0, negative numbers, and adding letters instead of numbers). I'm hoping that with all this, i can get the testing up to 75% and have 5 integration tests.  As far as automating testing go, I used GitHub Actions (instead of Jenkins like i planned to) to do this because it was the easiest for me to understand and  the most reliable and compatible for both building and testing. For the Deployment part of the project, i ended up using GitHub and DockerHub because they were compatible with each other.
+Link to the DockerHub: https://hub.docker.com/repository/docker/jwill2097/finalproject491
